@@ -9,7 +9,9 @@ Este proyecto integra datos climáticos como la radiacion, emisiones contaminant
 
 ## Metodología
 **Limpieza:** Interpolación lineal para completar datos faltantes de radiación y humedad.
+
 **Ingeniería de Variables:** Creación de 'Lags' de radiación solar para capturar efectos del día anterior.
+
 **Modelado:** Se entrenaron 4 modelos:
 
 1. Regresión Logística
